@@ -10,8 +10,4 @@ class API {
     _dio.options.baseUrl = "https://jsonplaceholder.org";
     _dio.interceptors.add(PrettyDioLogger());
   }
-
-  String setter(String sata) {
-    return sata;
-  }
 }
