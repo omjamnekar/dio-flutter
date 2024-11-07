@@ -15,5 +15,5 @@ class API {
     print("dsfds");
   }
 
-  get appa => checkout();
+  get setter => checkout();
 }
