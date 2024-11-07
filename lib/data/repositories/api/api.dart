@@ -10,4 +10,10 @@ class API {
     _dio.options.baseUrl = "https://jsonplaceholder.org";
     _dio.interceptors.add(PrettyDioLogger());
   }
+
+  void checkout() {
+    print("dsfds");
+  }
+
+  get setter => checkout();
 }
