@@ -14,4 +14,6 @@ class API {
   void checkout() {
     print("dsfds");
   }
+
+  get appa => checkout();
 }
