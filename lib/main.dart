@@ -1,5 +1,3 @@
-import 'package:dio_base_work/data/model/post_model.dart';
-import 'package:dio_base_work/data/repositories/post_repo.dart';
 import 'package:dio_base_work/logic/cubits/post_cubit/post_cubit.dart';
 import 'package:dio_base_work/presentation/screeen/horme_screen.dart';
 import 'package:flutter/material.dart';
@@ -24,7 +22,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         debugShowCheckedModeBanner: false,
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }
